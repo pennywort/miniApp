@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/miniApp/static/css/main.981f7211.chunk.css",
-    "main.js": "/miniApp/static/js/main.664fe4ab.chunk.js",
-    "main.js.map": "/miniApp/static/js/main.664fe4ab.chunk.js.map",
+    "main.js": "/miniApp/static/js/main.b26ad344.chunk.js",
+    "main.js.map": "/miniApp/static/js/main.b26ad344.chunk.js.map",
     "runtime-main.js": "/miniApp/static/js/runtime-main.60af172a.js",
     "runtime-main.js.map": "/miniApp/static/js/runtime-main.60af172a.js.map",
     "static/css/2.2cfa1b23.chunk.css": "/miniApp/static/css/2.2cfa1b23.chunk.css",
-    "static/js/2.b4efd93f.chunk.js": "/miniApp/static/js/2.b4efd93f.chunk.js",
-    "static/js/2.b4efd93f.chunk.js.map": "/miniApp/static/js/2.b4efd93f.chunk.js.map",
+    "static/js/2.8dee16a3.chunk.js": "/miniApp/static/js/2.8dee16a3.chunk.js",
+    "static/js/2.8dee16a3.chunk.js.map": "/miniApp/static/js/2.8dee16a3.chunk.js.map",
     "index.html": "/miniApp/index.html",
-    "precache-manifest.d6165cfa38a6159ef0ef60f34d201f96.js": "/miniApp/precache-manifest.d6165cfa38a6159ef0ef60f34d201f96.js",
+    "precache-manifest.62bdba00ea95bec7479228971f8936f4.js": "/miniApp/precache-manifest.62bdba00ea95bec7479228971f8936f4.js",
     "service-worker.js": "/miniApp/service-worker.js",
     "static/css/2.2cfa1b23.chunk.css.map": "/miniApp/static/css/2.2cfa1b23.chunk.css.map",
     "static/css/main.981f7211.chunk.css.map": "/miniApp/static/css/main.981f7211.chunk.css.map",
-    "static/js/2.b4efd93f.chunk.js.LICENSE.txt": "/miniApp/static/js/2.b4efd93f.chunk.js.LICENSE.txt",
+    "static/js/2.8dee16a3.chunk.js.LICENSE.txt": "/miniApp/static/js/2.8dee16a3.chunk.js.LICENSE.txt",
     "static/media/persik.png": "/miniApp/static/media/persik.4e1ec840.png"
   },
   "entrypoints": [
     "static/js/runtime-main.60af172a.js",
     "static/css/2.2cfa1b23.chunk.css",
-    "static/js/2.b4efd93f.chunk.js",
+    "static/js/2.8dee16a3.chunk.js",
     "static/css/main.981f7211.chunk.css",
-    "static/js/main.664fe4ab.chunk.js"
+    "static/js/main.b26ad344.chunk.js"
   ]
 }
