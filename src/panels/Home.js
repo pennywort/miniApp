@@ -5,10 +5,15 @@ import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader
 import Button from '@vkontakte/vkui/dist/components/Button/Button';
 import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
+import CellButton from '@vkontakte/vkui/dist/components/CellButton/CellButton';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
+import FormLayout from '@vkontakte/vkui/dist/components/FormLayout/FormLayout'
+import File from '@vkontakte/vkui/dist/components/File/File'
+import Icon24Camera from '@vkontakte/icons/dist/24/camera'
+import Icon24Document from '@vkontakte/icons/dist/24/document'
 
-const Home = ({ id, go, fetchedUser }) => (
+const Home = ({ id, go, fetchedUser, openAnother }) => (
 	<Panel id={id}>
 		<PanelHeader>Example</PanelHeader>
 		{fetchedUser &&
@@ -21,6 +26,12 @@ const Home = ({ id, go, fetchedUser }) => (
 			</Cell>
 		</Group>}
 
+		<Group>
+			<CellButton onClick={go} data-to="horizontal">
+				Idti tuda
+			</CellButton>
+		</Group>
+
 		<Group title="Navigation Example">
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
@@ -28,6 +39,12 @@ const Home = ({ id, go, fetchedUser }) => (
 				</Button>
 			</Div>
 		</Group>
+		<FormLayout>
+			<File top="Загрузите ваше фото" before={<Icon24Camera />} size="l">
+				Открыть галерею
+			</File>
+			<File top="Загрузите документы" before={<Icon24Document />} size="xl" mode="secondary" />
+		</FormLayout>
 	</Panel>
 );
 

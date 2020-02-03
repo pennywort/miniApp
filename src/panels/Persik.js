@@ -15,9 +15,11 @@ const osName = platform();
 const Persik = props => (
 	<Panel id={props.id}>
 		<PanelHeader
-			left={<HeaderButton onClick={props.go} data-to="home">
-				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
-			</HeaderButton>}
+			left={
+					<HeaderButton onClick={props.go} data-to="home">
+						{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
+					</HeaderButton>
+					}
 		>
 			Persik
 		</PanelHeader>
